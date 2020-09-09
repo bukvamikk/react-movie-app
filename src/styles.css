@@ -10,8 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 244, 244);
-  color: #333;
+  background-color: #131631;
 }
 
 p {
@@ -31,6 +30,11 @@ small {
 .title {
   font-size: 4.4rem;
   text-align: center;
+  color: #fd00fe;
+  text-shadow: 2px 2px 1px #d8ff00;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 50px;
 }
 
 .form {
@@ -41,26 +45,28 @@ small {
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
+  color: #00b3ff;
 }
 
 .input {
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
   line-height: 2.8rem;
-  border-radius: 20px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
+  background-color: transparent;
+  outline: none;
+  color: #74fffd;
 }
 
 .button {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #e34ca0;
   color: white;
   padding: 1rem 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  border-radius: 20px;
   font-size: 1.4rem;
   cursor: pointer;
-  transition: background-color 250ms;
+  outline: none;
+  border: 4px dashed #d6f141;
 }
 
 .button:hover {
