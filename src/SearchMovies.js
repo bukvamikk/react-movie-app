@@ -34,6 +34,7 @@ export default function SearchMovies() {
           name="query"
           placeholder="Jurassic Park"
           value={query}
+          required
           onChange={(e) => setQuery(e.target.value)}
         />
         <input className="button" type="submit" value="Submit" />
